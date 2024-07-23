@@ -57,7 +57,7 @@
     @php
         $idExists = does_drawattention_id_exist($id);
     @endphp
-    <div class="modal fade" id="{{ $side }}ModalWindow" tabindex="-1" aria-labelledby="{{ $side }}ModalWindowLabel" aria-hidden="true" style="background-color: #212721;">
+    <div class="modal fade" id="{{ $side }}ModalWindow" tabindex="-1" aria-labelledby="{{ $side }}ModalWindowLabel" aria-hidden="true" style="background-color: #573635;">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>

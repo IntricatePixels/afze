@@ -8,7 +8,7 @@
         $image = get_sub_field('image');
         $background_color = the_sub_field('background_colour');
     @endphp
-    <section class="block new full-width-cta-block mt-0 py-0 pb-md-0 in-page-section" id="full-width-cta-{{ get_row_index() }}" data-section-name="" style="background: #212721;">
+    <section class="block new full-width-cta-block mt-0 py-0 pb-md-0 in-page-section" id="full-width-cta-{{ get_row_index() }}" data-section-name="" style="background: #573635;">
         <div class="container-fluid">
             <div class="row">
                 <div class="d-flex flex-column justify-content-center align-items-center text-center {{ $swap_sides ? 'col-lg-6 order-2 py-5' : 'col-lg-6 order-2 order-lg-1' }}">
