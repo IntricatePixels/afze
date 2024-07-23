@@ -25,7 +25,7 @@ export default async (app) => {
    *
    * @see {@link https://bud.js.org/reference/bud.setPublicPath}
    */
-  app.setPublicPath('/wp-content/themes/casa/public/');
+  app.setPublicPath('/wp-content/themes/afze/public/');
 
   /**
    * Development server settings
@@ -36,7 +36,7 @@ export default async (app) => {
    */
   app
     .setUrl('http://localhost:3000')
-    .setProxyUrl('http://casa.local')
+    .setProxyUrl('http://afze.local')
     .watch(['resources/views', 'app']);
 
   /**
