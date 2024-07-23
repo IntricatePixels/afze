@@ -8,7 +8,7 @@ body {
   text-rendering: geometricprecision;
   color: $brown;
   font-display: swap;
-  color: #81755f;
+  color: #565254;
 }
 
 body {
@@ -78,7 +78,7 @@ img {
 
 @include media-breakpoint-up(lg) {
   .border-end-custom {
-    border-right: 1px solid #81755f; /* Adjust the color and style as needed */
+    border-right: 1px solid #565254; /* Adjust the color and style as needed */
   }
 
   .border-end-custom:last-child {
