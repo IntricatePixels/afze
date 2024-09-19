@@ -22,10 +22,9 @@
         </div>
         <div class="d-flex align-items-center justify-content-end">
             <div class="px-3">
-            <a class="text-white font-bold pe-2 border-end {{ $blog_id == '1' ? 'fw-bold' : '' }}" href="/">AL</a>
-            <a class="text-white ps-1 {{ $blog_id == '2' ? 'fw-bold' : '' }}" href="/en/"><span>EN</span></a>
+                <a class="text-white font-bold pe-2 border-end {{ $blog_id == '1' ? 'fw-bold' : '' }}" href="/">EN</a>
+                <a class="text-white ps-1 {{ $blog_id == '2' ? 'fw-bold' : '' }}" href="/AL/"><span>AL</span></a>
             </div>
-
             <div class="d-block d-xl-none">
                 @if ($blog_id == '1')
                     <a href="{{ esc_url(home_url('/')) }}kontakt/" title="Kontakt"
